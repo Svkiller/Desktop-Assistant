@@ -1,2 +1,5 @@
-# Desktop-Assistant
-all files are here
+- 👋 Hi, I’m @SHUBHAM VISHWAKARMA
+- 👀 I’m interested in Software development,cloud,AI/ML,web development,
+- 🌱 Completed MCA(Maters of computer Application)
+- 💞️ I’m looking to collaborate on many activities
+- 📫 How to reach me Shubhamvishwakarma7620@gmail.com
