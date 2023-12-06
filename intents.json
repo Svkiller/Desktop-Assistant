@@ -1,0 +1,644 @@
+{
+    "intents":[
+
+        {
+            "tag":"greeting",
+            "patterns":["hello","hii","hey","wake up","assistance","are you there"
+            ],
+            "responses":["hello sir","how are you sir.","always for you sir",
+                "Hello","here's your Assitant."
+
+            ]
+        },
+        {
+            "tag":"bye",
+            "patterns":["bye","good bye","see you later","sleep","exit"
+            ],
+            "responses":["Bye","I am Going.","always for you sir",
+                "Nice to meet you again sir.","See you Later."
+
+            ]
+        },
+        {
+            "tag":"health",
+            "patterns":["how are you","how you","are you fine?","are you good","assistance are you ok?"
+            ],
+            "responses":["I am Fine sir","Perfect.","Cool",
+                "like you.","Are you fine? I'm Fine."
+
+            ]
+        },
+        {
+            "tag":"signs",
+            "patterns":["i am not feeling well","i am feeling tired","i am weak","i am getting bored"
+            ],
+            "responses":["please visit to a doctor","take some rest","by sleeping you can heal your self"
+
+            ]
+        },
+        {
+            "tag":"identity",
+            "patterns":["your name","what is your name","who are you","whats are you"
+            ],
+            "responses":["I am William yur personal Desktop Assistance","Your Desktop asssistance",
+                "I'm your great assistance.","My name is william."
+
+            ]
+        },
+        {
+            "tag":"love",
+            "patterns":["I love you assistance","I like you","will you like me","app muze pasand ho"
+            ],
+            "responses":["I love you two sir","I also like you","offcourse sir",
+                "aap bat acchi karte hoo"
+
+            ]
+        },
+        {
+            "tag":"wish",
+            "patterns":["Good morning William"
+            ],
+            "responses":["Good morning sir","Thank you sir"
+
+            ]
+        },
+        {
+            "tag":"wishs",
+            "patterns":["Good Afternoon William"
+            ],
+            "responses":["Good Afternoon sir","Thank you sir"
+
+            ]
+        },
+        {
+            "tag":"blessings",
+            "patterns":["God bless you"
+            ],
+            "responses":["Thank you sir"
+            
+
+            ]
+        },
+        {
+            "tag":"wishing",
+            "patterns":["Good Night William"
+            ],
+            "responses":["Good Night sir","Thank you sir"
+
+            ]
+        },
+        {
+            "tag":"wishes",
+            "patterns":["Happy birthday William","wish you many returns of the day","happy birthday"
+            ],
+            "responses":["thanks for the wishes sir","thanks a lot","thanks"
+                
+
+            ]
+        },
+        {
+            "tag":"time",
+            "patterns":["time","whats is the time now","what' the time?","samay","william time"
+            ],
+            "responses":["time"
+
+            ]
+        },
+        {
+            "tag":"date",
+            "patterns":["date","whats is the date today","what's the date?","tareek","william date"
+            ],
+            "responses":["date"
+
+            ]
+        },
+        {
+            "tag":"day",
+            "patterns":["whats is the day today","what's the day?","din","william what's the day","which is the day "
+            ],
+            "responses":["day"
+
+            ]
+        },
+        {
+            "tag":"joke",
+            "patterns":["tell me a joke","can you tell me joke?","funny joke","joke"
+            ],
+            "responses":["joke"
+
+            ]
+        },
+        {
+            "tag":"wikipedia",
+            "patterns":["who is","information of","what is","about","wikipedia"
+            ],
+            "responses":["wikipedia"
+
+            ]
+        },
+        {
+            "tag":"google",
+            "patterns":["google search","google","search"
+            ],
+            "responses":["google"
+
+            ]
+        },
+        {
+            "tag":"open google",
+            "patterns":["google","open google","ok google"
+            ],
+            "responses":["open google"
+
+            ]
+        },
+        {
+            "tag":"play music",
+            "patterns":["music play","music","play music","play music for me"
+            ],
+            "responses":["play music"
+
+            ]
+        },
+        {
+            "tag":"open youtube",
+            "patterns":["youtube open","open youtube","youtube"
+            ],
+            "responses":["open youtube"
+
+            ]
+        },
+        {
+            "tag":"close youtube",
+            "patterns":["youtube close","close youtube","exit youtube"
+            ],
+            "responses":["close youtube"
+
+            ]
+        },
+        {
+            "tag":"play songs on youtube",
+            "patterns":["play songs on youtube","songs on youtube","youtube songs"
+            ],
+            "responses":["play songs on youtube"
+
+            ]
+        },
+        {
+            "tag":"youtube search",
+            "patterns":["youtube search","youtube","search"
+            ],
+            "responses":["youtube search"
+
+            ]
+        },
+        {
+            "tag":"open maps",
+            "patterns":["open maps","search maps"
+            ],
+            "responses":["open maps"
+
+            ]
+        },
+        {
+            "tag":"close maps",
+            "patterns":["close maps","quit map","exit maps"
+            ],
+            "responses":["close maps"
+
+            ]
+        },
+        {
+            "tag":"website",
+            "patterns":["open website","website"
+            ],
+            "responses":["website"
+
+            ]
+        },
+        {
+            "tag":"launch",
+            "patterns":["launch website","launch"
+            ],
+            "responses":["launch"
+
+            ]
+        },
+        {
+            "tag":"open facebook",
+            "patterns":["open facebook","open facebook for me","facebook"
+            ],
+            "responses":["open facebook"
+
+            ]
+        },
+        {
+            "tag":"close facebook",
+            "patterns":["close facebook","exit facebook","exit facebook"
+            ],
+            "responses":["close facebook"
+
+            ]
+        },
+        {
+            "tag":"open instagram",
+            "patterns":["open instagram","open instagram for me","instagram"
+            ],
+            "responses":["open instagram"
+
+            ]
+        },
+        {
+            "tag":"close instagram",
+            "patterns":["close instagram","exit instagram","quit instagram"
+            ],
+            "responses":["close instagram"
+
+            ]
+        },
+        {
+            "tag":"open vs code",
+            "patterns":["open code","Visual studio code","vs code"
+            ],
+            "responses":["open vs code"
+
+            ]
+        },
+        {
+            "tag":"close code",
+            "patterns":["close code","exit vs code","close vs code"
+            ],
+            "responses":["close code"
+
+            ]
+        },
+        {
+            "tag":"open netbeans",
+            "patterns":["open netbean","netbean file","netbean"
+            ],
+            "responses":["open netbeans"
+
+            ]
+        },
+        {
+            "tag":"close netbeans",
+            "patterns":["close netbean","exit netbean","quit netbean","close netbean"
+            ],
+            "responses":["close netbeans"
+
+            ]
+        },
+        {
+            "tag":"open file manager",
+            "patterns":["open file manager","acer one file","open acer","ACER1"
+            ],
+            "responses":["open file manager"
+
+            ]
+        },
+        {
+            "tag":"open browser",
+            "patterns":["open browser","start browser","edge browser"
+            ],
+            "responses":["open browser"
+
+            ]
+        },
+        {
+            "tag":"close browser",
+            "patterns":["close browser","exit browser","quit browser"
+            ],
+            "responses":["close browser"
+
+            ]
+        },
+        {
+            "tag":"open Google Chrome",
+            "patterns":["open google chrome","chrome browser","chrome"
+            ],
+            "responses":["open Google Chrome"
+
+            ]
+        },
+        {
+            "tag":"close Google Chrome",
+            "patterns":["close Google Chrome","exit chrome browser","quit chrome"
+            ],
+            "responses":["close Google Chrome"
+
+            ]
+        },
+        {
+            "tag":"open VLC player",
+            "patterns":["open vlc player","vedio player","vlc"
+            ],
+            "responses":["open VLC player"
+
+            ]
+        },
+        {
+            "tag":"close VLC player",
+            "patterns":["close vlc player","exit vedio player","quit vlc"
+            ],
+            "responses":["close VLC player"
+
+            ]
+        },
+        {
+            "tag":"open Picasa",
+            "patterns":["open picasa","picasa"
+            ],
+            "responses":["open Picasa"
+
+            ]
+        },
+        {
+            "tag":"close Picasa",
+            "patterns":["close picasa","exit picasa","quit Picasa"
+            ],
+            "responses":["close Picasa"
+
+            ]
+        },
+        {
+            "tag":"open winamp",
+            "patterns":["open winamp","winamp"
+            ],
+            "responses":["open winamp"
+
+            ]
+        },
+        {
+            "tag":"close winamp",
+            "patterns":["close winamp","exit winamp","quit winamp"
+            ],
+            "responses":["close winamp"
+
+            ]
+        },
+        {
+            "tag":"open whatsapp",
+            "patterns":["open whatsapp","whatsapp"
+            ],
+            "responses":["open whatsapp"
+
+            ]
+        },
+        {
+            "tag":"open stackoverflow",
+            "patterns":["open stack overflow","stackover flow","stack over flow"
+            ],
+            "responses":["open stackoverflow"
+
+            ]
+        },
+        {
+            "tag":"open CMD",
+            "patterns":["open command prompt","cmd","can you please open cmd"
+            ],
+            "responses":["open CMD"
+
+            ]
+        },
+        {
+            "tag":"close CMD",
+            "patterns":["close command prompt","close cmd","can you please close cmd","exit CMD "
+            ],
+            "responses":["close CMD"
+
+            ]
+        },
+        {
+            "tag":"open notepad",
+            "patterns":["open notepad","notepad","can you please open notepad"
+            ],
+            "responses":["open notepad"
+
+            ]
+        },
+        {
+            "tag":"close notepad",
+            "patterns":["close notepad","exit notepad","can you please close notepad"
+            ],
+            "responses":["close notepad"
+
+            ]
+        },
+        {
+            "tag":"open camera",
+            "patterns":["open camera","camera","can you please open camera"
+            ],
+            "responses":["open camera"
+
+            ]
+        },
+        {
+            "tag":"activate how to do mod",
+            "patterns":["activate how to do mod","activate mod","how to mod","mod"
+            ],
+            "responses":["activate how to do mod"
+
+            ]
+        },
+        {
+            "tag":"battery",
+            "patterns":["how much battery left","battery percentage","how much battery"
+            ],
+            "responses":["battery"
+
+            ]
+        },
+        {
+            "tag":"volume up",
+            "patterns":["please up the volume","volume up","raise the volume","increase volume"
+            ],
+            "responses":["volume up"
+
+            ]
+        },
+        {
+            "tag":"volume down",
+            "patterns":["please down the volume","volume down","decrease the volume","reduce volume"
+            ],
+            "responses":["volume down"
+
+            ]
+        },
+        {
+            "tag":"volume mute",
+            "patterns":["please mute the volume","volume mute","mute the volume","mute"
+            ],
+            "responses":["volume mute"
+
+            ]
+        },
+        {
+            "tag":"ip address",
+            "patterns":["please tell me the ip address","what is my ip address","ip address of this device","ip address"
+            ],
+            "responses":["ip address"
+
+            ]
+        },
+        {
+            "tag":"take screenshot",
+            "patterns":["please take screenshot","take screenshot","take photo of screen","screen"
+            ],
+            "responses":["take screenshot"
+
+            ]
+        },
+        {
+            "tag":"show screenshot",
+            "patterns":["please show screenshot","show me screenshot","view a screenshot"
+            ],
+            "responses":["show screenshot"
+
+            ]
+        },
+        {
+            "tag":"read",
+            "patterns":["please read a book for me","read a pdf ","read document for me"
+            ],
+            "responses":["read"
+
+            ]
+        },
+        {
+            "tag":"switch the window",
+            "patterns":["please switch the window","switch window","change screen","screen"
+            ],
+            "responses":["switch the window"
+
+            ]
+        },
+        {
+            "tag":"news",
+            "patterns":["tell me a news","top hedaline of news","today's news"
+            ],
+            "responses":["news"
+
+            ]
+        },
+        {
+            "tag":"current location",
+            "patterns":["tell my location","my location","where i am"
+            ],
+            "responses":["current location"
+
+            ]
+        },
+        {
+            "tag":"where is",
+            "patterns":["where is","find location of ","tell me the location of"
+            ],
+            "responses":["where is"
+
+            ]
+        },
+        {
+            "tag":"send email",
+            "patterns":["send the emaiil","mail a person","email","mail to"
+            ],
+            "responses":["send email"
+
+            ]
+        },
+        {
+            "tag":"calculate",
+            "patterns":["calculate the equation","solve the problem","calculate"
+            ],
+            "responses":["calculate"
+
+            ]
+        },
+        {
+            "tag":"shutdown",
+            "patterns":["please shutdown the pc","shutdown laptop","shutdown the system","shutdown"
+            ],
+            "responses":["shutdown"
+
+            ]
+        },
+        {
+            "tag":"restart",
+            "patterns":["please restart the pc","restart laptop","restart the system","restart"
+            ],
+            "responses":["restart"
+
+            ]
+        },
+        {
+            "tag":"sleep",
+            "patterns":["please sleep the pc","sleep laptop","sleep the system","sleep"
+            ],
+            "responses":["sleep"
+
+            ]
+        },
+        {
+            "tag":"sinhgad institute of business administrtaion and research pune",
+            "patterns":["which is best mca college in pune","college near kondhwa"
+            ],
+            "responses":["sinhgad institute of business administrtaion and research pune","sinhgad college of kondhwa budruk road is best"
+
+            ]
+        },
+        {
+            "tag":"save url",
+            "patterns":["please save url","save url of these video","save it","save the url"
+            ],
+            "responses":["save url"
+
+            ]
+        },
+        {
+            "tag":"full form",
+            "patterns":["please tell me full form of","full form of","what is the full form"
+            ],
+            "responses":["full form"
+
+            ]
+        },
+        {
+            "tag":"stop",
+            "patterns":["please stop","pause laptop","pause the system","stop"
+            ],
+            "responses":["stop"
+
+            ]
+        },
+        {
+            "tag":"fever",
+            "patterns":["i have a fever ","my temperature is high","feeling hot"
+            ],
+            "responses":["take paracetomol and take a rest"
+
+            ]
+        },
+        {
+            "tag":"cold",
+            "patterns":["i can't breadth properly because of cold","stuffy nose runny nose","watery eyes"
+            ],
+            "responses":["take vicks vaporub","use warm water"
+
+            ]
+        },
+        {
+            "tag":"Dinner",
+            "patterns":["have your dinner ","complete your dinner","may you have dinner","what you want in dinner"
+            ],
+            "responses":["electricity is my dinner when batttery is low you can provide me"
+
+            ]
+        },
+        {
+            "tag":"Breakfast",
+            "patterns":["can you have breakfast","what you want in breakfast"
+            ],
+            "responses":["i dont want anything in breakfast, how can help you"
+
+            ]
+        }
+    ]
+}
